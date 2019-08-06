@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let newTask = document.querySelector("#new-task-description").value;
     let li = document.createElement('li');
     let button = document.createElement('button');
+    button.innerText = 'X'
     li.innerText = newTask
     myList.append(li)
     li.append(button)
